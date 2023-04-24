@@ -8,7 +8,7 @@ function Navbar() {
   const [showLogin, setShowLogin] = useState(false);
 
   return (
-    <div className="flex min-h-[3rem] items-center justify-between bg-slate-900 px-3 py-2 sm:px-[2%] sm:py-[1%] lg:px-[15%]">
+    <div className="flex sticky z-50 min-h-[3rem] items-center justify-between bg-slate-900 px-3 py-2 sm:px-[2%] sm:py-[1%] lg:px-[15%]">
       <Link href={"/"}>
         <Image src={"/logo.png"} alt="logo" width={60} height={60} />
       </Link>
