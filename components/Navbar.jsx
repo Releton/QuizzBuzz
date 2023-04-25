@@ -36,7 +36,7 @@ function Navbar() {
           <motion.div
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
-            className={`absolute top-[50%] left-[50%] bg-slate-950 flex justify-center items-center flex-col gap-3 text-white min-w-[12rem] min-h-[12rem] translate-x-[-50%] translate-y-[-50%] rounded-lg shadow-lg `}
+            className={`absolute top-[50vh] left-[50vw] bg-slate-950 flex justify-center items-center flex-col gap-3 text-white min-w-[12rem] min-h-[12rem] translate-x-[-50%] translate-y-[-50%] rounded-lg shadow-lg `}
           >
             <AiOutlineClose className="absolute right-2 top-2 text-red-500 cursor-pointer" fontSize={20} onClick={() => setShowLogin(false)} />
             <p>Google</p>
